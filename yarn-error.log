@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js set version stable
+
+PATH: 
+  C:\Python310\Scripts\;C:\Python310\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\libnvvp;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\libnvvp;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\scoop\shims;C:\Python38\Scripts\;C:\Python38\;C:\Python27\;C:\Python27\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\Daniel\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\NVIDIA Corporation\Nsight Compute 2020.1.1\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Daniel\scoop\shims;C:\Users\Daniel\.windows-build-tools\python27\;C:\Users\Daniel\AppData\Local\Microsoft\WindowsApps;C:\Users\Daniel\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Daniel\AppData\Local\Yarn\bin;C:\Users\Daniel\AppData\Local\Microsoft\WindowsApps;C:\dev\Java\jdk1.8.0_281\bin;C:\Users\Daniel\.dotnet\tools;C:\Users\Daniel\AppData\Local\atom\bin;C:\dev\xmlin\bin;C:\dev\Java\libs\antlr-4.9.2-complete.jar;C:\dev\antlr\aliases;C:\Users\Daniel\.dotnet\tools;C:\cuda\bin;C:\cuda\include;C:\cuda\lib\x64;C:\dev\android\platform-tools;C:\Users\Daniel\AppData\Local\Coursier\cache\jvm\adopt@1.11.0-11\bin;C:\Users\Daniel\AppData\Local\Coursier\data\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.2\bin;C:\Users\Daniel\AppData\Roaming\npm;C:\Users\Daniel\.dotnet\tools;C:\dev;C:\msys64\usr\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  16.11.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: Release not found: stable
+      at C:\Program Files (x86)\Yarn\lib\cli.js:86218:17
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+
+npm manifest: 
+  {
+    "name": "punku",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
