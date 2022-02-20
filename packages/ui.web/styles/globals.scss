@@ -1,3 +1,10 @@
+$font-prefix: '~@ibm/plex';
+@import '~@ibm/plex/scss/ibm-plex.scss';
+
+* {
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif !important;
+}
+
 html,
 body {
   padding: 0;
