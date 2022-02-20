@@ -1,6 +1,7 @@
 import { useTheme } from '@emotion/react';
 import styled from '@emotion/styled';
 import {
+  Alert,
   Box,
   Button,
   Container,
@@ -113,6 +114,9 @@ export function Signup() {
             value={password}
             onChange={handleChangePassword}
           />
+          <Alert icon={false} variant="filled" severity="error" sx={{ width: '100%', mt: 2}}>
+            This is an error alert — check it out!
+          </Alert>
           <Button fullWidth variant="contained" sx={{
             my: 2
           }}>
