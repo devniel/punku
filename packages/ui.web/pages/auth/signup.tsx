@@ -60,6 +60,9 @@ export function Signup() {
             punku
           </Typography>
           <TextField
+            inputProps={{
+              'data-lpignore': 'true'
+            }}
             autoComplete='email'
             fullWidth
             placeholder='email'
@@ -75,6 +78,9 @@ export function Signup() {
             onChange={handleChangeEmail}
           />
           <TextField
+            inputProps={{
+              'data-lpignore': 'true'
+            }}
             autoComplete='username'
             fullWidth
             placeholder='username'
@@ -89,6 +95,9 @@ export function Signup() {
             onChange={handleChangeUsername}
           />
           <TextField
+            inputProps={{
+              'data-lpignore': 'true'
+            }}
             autoComplete='new-password'
             placeholder='password'
             fullWidth
